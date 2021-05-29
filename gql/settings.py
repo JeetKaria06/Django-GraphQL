@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'gql.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('NAME'),
-        'USER': os.environ.get('USER'), 
-        'PASSWORD': os.environ.get('PASSWORD'),
-        'HOST': os.environ.get('db_host'), 
-        'PORT': os.environ.get('PORT'),
+        'NAME': os.environ.get('name'),
+        'USER': os.environ.get('user'), 
+        'PASSWORD': os.environ.get('password'),
+        'HOST': os.environ.get('host'), 
+        'PORT': os.environ.get('port'),
     }
 }
 
